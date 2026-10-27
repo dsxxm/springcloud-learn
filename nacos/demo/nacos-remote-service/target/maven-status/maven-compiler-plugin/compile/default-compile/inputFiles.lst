@@ -1,0 +1,5 @@
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/nacos/demo/nacos-remote-service/src/main/java/com/macro/cloud/nacos/remote/NacosRemoteService.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/nacos/demo/nacos-remote-service/src/main/java/com/macro/cloud/nacos/remote/config/RestTemplateConfiguration.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/nacos/demo/nacos-remote-service/src/main/java/com/macro/cloud/nacos/remote/client/RemoteUserController.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/nacos/demo/nacos-remote-service/src/main/java/com/macro/cloud/nacos/remote/dto/Result.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/nacos/demo/nacos-remote-service/src/main/java/com/macro/cloud/nacos/remote/dto/User.java

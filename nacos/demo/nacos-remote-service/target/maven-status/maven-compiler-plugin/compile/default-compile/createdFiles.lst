@@ -1,0 +1,5 @@
+com/macro/cloud/nacos/remote/NacosRemoteService.class
+com/macro/cloud/nacos/remote/client/RemoteUserController.class
+com/macro/cloud/nacos/remote/dto/User.class
+com/macro/cloud/nacos/remote/dto/Result.class
+com/macro/cloud/nacos/remote/config/RestTemplateConfiguration.class
