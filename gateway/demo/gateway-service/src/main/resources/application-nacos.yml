@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: nacos-user-service-route
+          uri: lb://nacos-user-service
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=1

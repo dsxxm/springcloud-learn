@@ -1,0 +1,30 @@
+service-url:
+  user-service: http://localhost:8206
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: strip-prefix-route
+          uri: ${service-url.user-service}
+          predicates:
+            - Path=/user-service/**
+          filters:
+            - StripPrefix=1
+
+        - id: create-user-route
+          uri: ${service-url.user-service}
+          predicates:
+            - Path=/create-user
+            - Method=POST
+          filters:
+            - AddRequestHeader=X-Gateway-Request, gateway-service
+            - RewritePath=/create-user, /user/create
+
+        - id: prefix-path-route
+          uri: ${service-url.user-service}
+          predicates:
+            - Path=/{id}
+            - Method=GET
+          filters:
+            - PrefixPath=/user

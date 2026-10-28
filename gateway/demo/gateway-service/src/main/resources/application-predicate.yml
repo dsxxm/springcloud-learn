@@ -1,0 +1,19 @@
+service-url:
+  user-service: http://localhost:8206
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: header-user-route
+          uri: ${service-url.user-service}
+          predicates:
+            - Path=/user/{id}
+            - Method=GET
+            - Header=X-Request-Id, \d+
+
+        - id: query-user-route
+          uri: ${service-url.user-service}
+          predicates:
+            - Path=/user/create
+            - Method=POST
