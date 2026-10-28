@@ -239,4 +239,4 @@ spring:
 - [Nacos 官方：Nacos 融合 Spring Cloud](https://www.nacos.io/docs/v3.1/ecology/use-nacos-with-spring-cloud/)
 - [Nacos 官方：配置管理概览](https://nacos.io/en/docs/next/manual/user/config/overview/)
 - [Nacos 官方：服务发现概览](https://nacos.io/en/docs/latest/manual/user/naming/overview/)
-- [Macrozheng 课程：Nacos 作为注册中心和配置中心](https://www.yuque.com/macrozheng/mall-swarm-learning/io0zoyrf5y0b2mf6)，密码：`vprk`
+- [Macrozheng 课程：Nacos 作为注册中心和配置中心](https://www.yuque.com/macrozheng/mall-swarm-learning/io0zoyrf5y0b2mf6)
