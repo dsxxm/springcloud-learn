@@ -1,0 +1,6 @@
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/dto/Result.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/controller/UserController.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/fallback/UserFallback.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/client/UserService.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/dto/User.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/feign-service/src/main/java/com/macro/cloud/feign/FeignServiceApplication.java

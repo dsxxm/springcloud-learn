@@ -1,0 +1,4 @@
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/sentinel-feign-service/src/main/java/com/macro/cloud/sentinel/SentinelFeignService.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/sentinel-feign-service/src/main/java/com/macro/cloud/sentinel/controller/UserFeignController.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/sentinel-feign-service/src/main/java/com/macro/cloud/sentinel/fallback/UserFallback.java
+/home/bakaxxn/workplace/randomthing/java/springcloud-learn/openfeign/demo/sentinel-feign-service/src/main/java/com/macro/cloud/sentinel/client/UserService.java

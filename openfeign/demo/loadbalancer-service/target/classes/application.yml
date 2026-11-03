@@ -1,0 +1,9 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: loadbalancer-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
