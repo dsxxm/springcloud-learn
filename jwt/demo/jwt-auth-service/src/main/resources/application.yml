@@ -1,0 +1,15 @@
+server:
+  port: 9301
+spring:
+  application:
+    name: jwt-auth-service
+  redis:
+    host: localhost
+    port: 6379
+security:
+  token:
+    issuer: jwt-auth-service
+    audience: gateway-service
+    hmac-key-base64: ${JWT_HS256_KEY_BASE64}
+    access-ttl: PT10M
+    refresh-ttl: P7D
