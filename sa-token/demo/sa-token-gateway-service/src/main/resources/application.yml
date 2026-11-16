@@ -1,0 +1,37 @@
+server:
+  port: 9401
+spring:
+  application:
+    name: sa-token-gateway-service
+  redis:
+    host: localhost
+    port: 6379
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://nacos-user-service
+          predicates:
+            - Path=/mall-user/**
+          filters:
+            - StripPrefix=1
+        - id: login-service
+          uri: lb://sa-token-login-service
+          predicates:
+            - Path=/mall-auth/**
+          filters:
+            - StripPrefix=1
+sa-token:
+  token-name: Authorization
+  token-prefix: Bearer
+  is-read-header: true
+  is-read-cookie: false
+  timeout: 2592000
+  active-timeout: -1
+  is-concurrent: true
+  is-share: false
+  token-style: uuid
+  is-log: false
