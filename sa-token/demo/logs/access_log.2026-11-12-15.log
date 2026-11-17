@@ -1,8 +1,0 @@
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/ HTTP/1.1" 304 - 3 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/console/server/guide HTTP/1.1" 200 340 1 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/console/server/state HTTP/1.1" 200 664 3 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/console/server/announcement?language=zh-CN HTTP/1.1" 200 173 2 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/console/server/state HTTP/1.1" 200 664 2 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/console/namespaces?&namespaceId= HTTP/1.1" 200 166 3 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:15:52 +0800] "GET /nacos/v1/ns/catalog/services?hasIpCount=true&withInstances=false&pageNo=1&pageSize=10&serviceNameParam=&groupNameParam=&namespaceId= HTTP/1.1" 200 313 3 Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0 -
-127.0.0.1 - - [12/Nov/2026:15:30:16 +0800] "GET /nacos/ HTTP/1.1" 200 2780 3 curl/8.23.0 -

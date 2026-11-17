@@ -1,8 +1,0 @@
-com/macro/cloud/satoken/login/dto/LoginRequest.class
-com/macro/cloud/satoken/login/config/LoginProperties.class
-com/macro/cloud/satoken/login/controller/LoginController.class
-com/macro/cloud/satoken/login/service/LoginService.class
-com/macro/cloud/satoken/login/SaTokenLoginApplication.class
-com/macro/cloud/satoken/login/dto/LoginResponse.class
-com/macro/cloud/satoken/login/dto/UnauthorizedException.class
-com/macro/cloud/satoken/login/config/LoginSecurityConfiguration.class

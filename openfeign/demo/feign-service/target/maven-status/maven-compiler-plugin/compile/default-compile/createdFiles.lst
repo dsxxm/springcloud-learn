@@ -1,6 +1,0 @@
-com/macro/cloud/feign/fallback/UserFallback.class
-com/macro/cloud/feign/dto/Result.class
-com/macro/cloud/feign/FeignServiceApplication.class
-com/macro/cloud/feign/controller/UserController.class
-com/macro/cloud/feign/client/UserService.class
-com/macro/cloud/feign/dto/User.class

@@ -1,8 +1,0 @@
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/dto/UnauthorizedException.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/dto/LoginRequest.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/SaTokenLoginApplication.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/config/LoginSecurityConfiguration.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/dto/LoginResponse.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/service/LoginService.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/controller/LoginController.java
-/home/bakaxxn/workplace/randomthing/java/springcloud-learn/sa-token/demo/sa-token-login-service/src/main/java/com/macro/cloud/satoken/login/config/LoginProperties.java

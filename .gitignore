@@ -1,0 +1,92 @@
+# ==============================
+# Java 编译文件
+# ==============================
+*.class
+*.log
+*.tmp
+*.temp
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ==============================
+# Maven
+# ==============================
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ==============================
+# Gradle
+# ==============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==============================
+# Eclipse
+# ==============================
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+*.code-workspace
+
+# ==============================
+# 操作系统
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Elasticsearch 本地证书
+# ==============================
+certs/
+*.p12
+*.pfx
+*.key
+*.jks
+*.keystore
+
+# ==============================
+# 环境变量与敏感配置
+# ==============================
+.env
+.env.*
+!.env.example
+
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ==============================
+# 测试与覆盖率报告
+# ==============================
+coverage/
+*.exec
+*.hprof

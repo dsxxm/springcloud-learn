@@ -1,4 +1,0 @@
-com/macro/cloud/sentinel/SentinelFeignService.class
-com/macro/cloud/sentinel/client/UserService.class
-com/macro/cloud/sentinel/controller/UserFeignController.class
-com/macro/cloud/sentinel/fallback/UserFallback.class
